@@ -94,7 +94,7 @@ function getBandName(genre) {
         ["Radio", "Radios"], ["Hydrogen", "Hydrogen"], ["Neon", "Neon"], ["Nitrogen", "Nitrogen"], ["Spirit", "Spirits"], ["Being", "Beings"], ["Deity", "Deities"],
         ["Wave", "Waves"], ["Probe", "Probes"], ["Crystal", "Crystals"], ["Kush", "Kush"], ["Plant", "Plants"],
         ["Node", "Nodes"], ["Sentience", "Sentience"], ["State", "States"], ["Machine", "Machines"], 
-        ["Program", "Programs"], ["Routine", "Routines"], ["Procedure", "Procedures"], ["Structure", "Structures"]);
+        ["Program", "Programs"], ["Routine", "Routines"], ["Procedure", "Procedures"], ["Structure", "Structures"], ["Signal", "Signals"]);
 
     pbWords.addAdjective("Horizontal", "Vertical", "Distorted", "Emitted", "Warped",
     "Transformed", "Arbitrary", "Neurological", "Neurosomatic", "Somatic", "Haptic", "Analog", "Orbital", "Digital", "Numeric", "Astronomical",
