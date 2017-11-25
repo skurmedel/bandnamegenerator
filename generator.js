@@ -92,7 +92,9 @@ function getBandName(genre) {
         ["Matrix", "Matrices"], ["Route", "Routes"], ["Base", "Bases"], ["Energy", "Energies"],
         ["Particle", "Particles"], ["Emission", "Emissions"], ["Religion", "Religions"],
         ["Radio", "Radios"], ["Hydrogen", "Hydrogen"], ["Neon", "Neon"], ["Nitrogen", "Nitrogen"], ["Spirit", "Spirits"], ["Being", "Beings"], ["Deity", "Deities"],
-        ["Wave", "Waves"], ["Probe", "Probes"], ["Crystal", "Crystals"], ["Kush", "Kush"], ["Plant", "Plants"]);
+        ["Wave", "Waves"], ["Probe", "Probes"], ["Crystal", "Crystals"], ["Kush", "Kush"], ["Plant", "Plants"],
+        ["Node", "Nodes"], ["Sentience", "Sentience"], ["State", "States"], ["Machine", "Machines"], 
+        ["Program", "Programs"], ["Routine", "Routines"], ["Procedure", "Procedures"], ["Structure", "Structures"]);
 
     pbWords.addAdjective("Horizontal", "Vertical", "Distorted", "Emitted", "Warped",
     "Transformed", "Arbitrary", "Neurological", "Neurosomatic", "Somatic", "Haptic", "Analog", "Orbital", "Digital", "Numeric", "Astronomical",
@@ -104,7 +106,7 @@ function getBandName(genre) {
     "Loving", "Psychotropic", "Stratospheric", "Motherly", "Familiar", "Polar", "Aligned", 
     "Triangular", "Amorphous", "Quantum", "Silent", "Refractive", "Reflective", 
     "Modular", "Interstellar", "Stellar", "Cybernetic", "Orbiting", "Interpolated", "Extrapolated", "Bicubic", "Anistropic",
-    "Magenta", "Cyan", "Black", "Stimulating", "Oscillating", "Rebounding", "White", "Artificial", "Spectral", "Monolithic");
+    "Magenta", "Cyan", "Black", "Stimulating", "Oscillating", "Rebounding", "White", "Artificial", "Spectral", "Monolithic", "Nodular", "Mental");
     
     pbWords.addPrefixes("Bi", "Tri", "Multi", "Pre");
 
