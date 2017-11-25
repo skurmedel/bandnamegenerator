@@ -106,9 +106,10 @@ function getBandName(genre) {
     "Loving", "Psychotropic", "Stratospheric", "Motherly", "Familiar", "Polar", "Aligned", 
     "Triangular", "Amorphous", "Quantum", "Silent", "Refractive", "Reflective", 
     "Modular", "Interstellar", "Stellar", "Cybernetic", "Orbiting", "Interpolated", "Extrapolated", "Bicubic", "Anistropic",
-    "Magenta", "Cyan", "Black", "Stimulating", "Oscillating", "Rebounding", "White", "Artificial", "Spectral", "Monolithic", "Nodular", "Mental");
+    "Magenta", "Cyan", "Black", "Stimulating", "Oscillating", "Rebounding", "White", "Artificial", "Spectral", "Monolithic", "Nodular", "Mental",
+    "Psychoactive", "Vulcan", "Radiant");
     
-    pbWords.addPrefixes("Bi", "Tri", "Multi", "Pre");
+    pbWords.addPrefixes("Bi", "Tri", "Multi", "Pre", "Retro", "Pro");
 
     function psybientBandName() {
 
