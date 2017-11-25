@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <script src="generator.js"></script>
+        <script>
+            window.top.addEventListener("load", (ev)=>{
+                let bandNameElement = document.getElementById("band-name");
+                document.getElementById("generate-button").addEventListener("click", (ev2) => {
+                    bandNameElement.textContent = getBandName("psybient");
+                    let txt = ["Anotha one", "Go on", "Next", "Indulge me"][Math.round(Math.random() * 3.499)];
+                    ev2.target.setAttribute("value", txt);
+                });
+            });
+        </script>
+        <style>
+            
+            body {
+                height: 80vh;
+                margin: 0;
+                padding: 20vh 0 0 0;
+                color: #2F3036;
+                font-size: 100%;
+                font-family: sans-serif;
+                background-color: #527D8C;
+                background-image: -webkit-gradient(linear, left top, left bottom, from(#527D8C), to(#49555A));
+                background-image: -webkit-linear-gradient(top, #527D8C, #49555A);
+                background-image: -moz-linear-gradient(top, #527D8C, #49555A);
+                background-image: linear-gradient(to bottom, #527D8C, #49555A);
+            }
+
+            div.main-form, input#generate-button {
+                border-color: #93AA97;
+                background-color: #FAF8EF;
+                border-style: solid;
+                border-radius: 1em;
+            }
+
+            div.main-form {
+                max-width: 30em;
+                margin: 0 auto;
+                border-width: 0.5em;
+                padding: 3em;
+            }
+
+            div.main-form h1 {
+                text-align: center;
+                margin-bottom: 1.5em;
+            }
+
+            #band-name {
+                font-size: 2em;
+                text-align: center;
+                margin-bottom: 1.5em;
+            }
+
+            input#generate-button {
+                font-size: 1em;
+                margin: 0 auto;
+                display: block;
+                padding: 1em;
+                border-width: 0.25em;
+                font-family: sans-serif;
+                transition:  background-color 0.2s;
+            }
+
+            input#generate-button:hover {
+                background-color: #93AA97;
+            }
+
+            input#generate-button:active {
+                background-color: #49555A;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main-form">
+            <h1>Psybient Name Generator</h1>
+
+            <div id="band-name">Click the button to generate a band name.</div>
+
+            <input id="generate-button" type="button" value="Click me" />
+        </div>
+    </body>
+
+</html>
